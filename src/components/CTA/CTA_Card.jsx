@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 
-export class CTA_Card extends Component {
+class CTA_Card extends Component {
   renderFeatures() {
     return (
       this.props.features.map((feature, index) => {

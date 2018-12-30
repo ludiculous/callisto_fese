@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Motion} from "react-motion";
 
-export class Text_Block extends Component {
+class Text_Block extends Component {
 
   render() {
     let align = this.props.align == "right" ? "align_right" : "align_left";
